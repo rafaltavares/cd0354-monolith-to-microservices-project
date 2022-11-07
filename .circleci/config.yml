@@ -35,7 +35,7 @@ jobs:
           docker build -t tifarafa/udagram-api-feed:$TAG ./udagram-api-feed
           docker build -t tifarafa/udagram-api-user:$TAG ./udagram-api-user
           docker build -t tifarafa/udagram-frontend:$TAG ./udagram-frontend
-          docker build -t tifarafa/reverseproxy:$TAG ./reverseproxy
+          docker build -t tifarafa/reverseproxy:$TAG ./udagram-reverseproxy
           docker push tifarafa/udagram-api-feed:$TAG
           docker push tifarafa/udagram-api-user:$TAG
           docker push tifarafa/udagram-frontend:$TAG
